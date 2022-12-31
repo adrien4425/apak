@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>YNY</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.2.1 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="contact">
+  <header>
+    <nav>
+      <ul class="menu-deroulant">
+        <img src="images/logo.jpg" class="imgm">
+        <a href="main.html">Accueil</a>
+        <a href="event.html">Events</a>
+        <a href="contact.html">Nous rejoindres</a>
+      </ul>
+    </nav>  
+  </header>
+  <main>
+    <form method="POST" action="action.php">
+        <div>
+            <input type="radio" id="Mr" name="civilite" value="Mr">
+            <label for="Mr" class="inline-label">Monsieur</label>
+        </div>
+        <div>
+            <input type="radio" id="Mme" name="civilite" value="Mme">
+            <label for="Mme" class="inline-label">Madame</label>
+        </div>
+        <label for="name">Votre nom</label>
+        <input type="text" name="name" id="name" placeholder="Saisissez votre nom">
+        <label for="comment">Vos attentes/ souhaits en nous rejoignant</label>
+        <textarea rows="4" name="comment" id="comment" placeholder="Ajoutez un commentaire pertinent"></textarea>
+        <label for="email">Votre adresse e-mail</label>
+        <input type="email" name="email" id="email" placeholder="Saisissez votre e-mail">
+        <div>
+          <label for="tos" class="inline-label">J'accepte les conditions générales d'utilisation</label>
+          <input type="checkbox" name="tos" id="tos">
+        </div>
+        <button type="reset">Réinitialiser le formulaire</button>
+        <button type="submit">envoyer</button>
+    </form>
+  </main>
+  <footer>
+    <a href="https://www.instagram.com/yny_reves/?hl=fr" target="_blank"><img class="imgf" src="images/instagram.webp"></a>
+    <a href="contact.html"><img class="imgf" src="images/mail.png" ></a>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+    integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+  integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz" crossorigin="anonymous">
+</script>
+</body>
+</html>

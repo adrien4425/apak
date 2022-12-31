@@ -1,4 +1,4 @@
-.main{
+.main, .contact{
     background: linear-gradient(to bottom right,#00B5D6,#D600D0);
 }
 
@@ -6,11 +6,109 @@
     background: linear-gradient(to bottom left,#A200D6,#D60014);
 }
 
-.com{
-    display: inline;
-    width: 150px;
-    height: 50px;
-    line-height: 50px;
+nav a{
+    margin-top: 15px;
+    background: rgba(0,0,0,.5);
+    display:inline-block;
+    width: 30%;
+    padding:15px;
     text-align: center;
-    border: 1px solid red;
+    border: 1px red;
+}
+
+.container{
+    width: 85%;
+    height: fit-content;
+    border: 5px solid blueviolet;
+    border-radius: .5em;
+    padding: 10px;
+    display:flex;  
+    flex-direction: line;
+}
+
+.item {
+    padding: 15px;
+    background-color: rgba(111,41,97,.3);
+    border: 2px solid rgba(111,41,97,.5);
+  }
+
+footer{
+    background: rgba(0,0,0,.5);
+    width:100%;
+    height: 100px;
+    text-align: center;
+    display:inline-block;
+}
+
+h1,h2,h3,h4{
+    text-align: center;
+}
+
+.imgg{
+    border-top-left-radius:15px;
+    border-bottom-right-radius:15px;
+}
+
+.imgd{
+    border-top-right-radius:15px;
+    border-bottom-left-radius:15px;
+}
+
+.imgf{
+    height: 50px;
+    text-align: center;
+    display:inline-block;
+}
+
+.form-horizontal{
+    display:table-column; 
+}
+
+.imgm{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-left: -20px;
+    margin-right: 10px;
+}
+
+body {
+    font-family: Calibri, serif;
+}
+form {
+    max-width: 50%;
+    text-align: center;
+    display: list-item;
+}
+form label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+label.inline-label {
+    display: inline-block;
+}
+fieldset {
+    border: 1px solid lightgray;
+    background-color: rgba(225, 233, 255, 0.25);
+}
+legend {
+    font-style: italic;
+    font-size: 1.1em;
+    padding: 5px;
+}
+form input, form select, form textarea {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 80%;
+}
+form input[type="radio"],
+form input[type="checkbox"],
+form input[type="submit"] {
+    width: auto;
+}
+button[type=submit], button[type=reset] {
+    padding: 10px;
+    margin-top: 15px;
 }
